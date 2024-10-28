@@ -10,11 +10,11 @@ const Portfolio = () => {
           <h1 className="text-4xl font-bold mb-4">Brian Koech</h1>
           <h2 className="text-2xl mb-6">DevOps Engineer & Full Stack Developer</h2>
           <div className="flex space-x-4">
-            <a href="mailto:your.email@example.com" className="flex items-center hover:text-blue-200">
+            <a href="mailto:brykoech@gmail.com" className="flex items-center hover:text-blue-200">
               <Mail className="w-5 h-5 mr-2" />
               Contact Me
             </a>
-            <a href="https://github.com/yourusername" className="flex items-center hover:text-blue-200">
+            <a href="https://github.com/bryko254" className="flex items-center hover:text-blue-200">
               <Github className="w-5 h-5 mr-2" />
               GitHub
             </a>
@@ -43,7 +43,7 @@ const Portfolio = () => {
             </div>
             <div className="flex items-center text-gray-600">
               <Calendar className="w-4 h-4 mr-2" />
-              <span>Available for opportunities</span>
+             {/*  <span>Available for opportunities</span> */}
             </div>
           </div>
         </section>
